@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="form-card">
+        <h2><span class="emcboys">" EMC BOYS "</span> - Registration Form</h2>
+
+        <form id="registerForm">
+
+            <div class="input-group">
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Name"
+                >
+            </div>
+
+            <div class="input-group">
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter Email"
+                >
+            </div>
+
+            <div class="input-group">
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter Password"
+                >
+            </div>
+
+            <button id="submitBtn" disabled>
+                Register
+            </button>
+
+        </form>
+    </div>
+
+    <div class="table-card">
+        <h2>Registered Users</h2>
+        <table id="userTable">
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
