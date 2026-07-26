@@ -51,25 +51,6 @@ Registration-Form/
 
 ---
 
-## 🚀 How to Run
-
-1. Clone the repository.
-
-```bash
-git clone https://github.com/your-username/registration-form.git
-```
-
-2. Open the project folder.
-
-```bash
-cd registration-form
-```
-
-3. Open `index.html` in your browser.
-
-No installation or dependencies are required.
-
----
 
 ## 📋 Validation Rules
 
